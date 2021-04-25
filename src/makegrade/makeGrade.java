@@ -10,6 +10,6 @@ public class makeGrade {
       // 0,1,2,3 학생 -> 자기가 자기점수매긴숫자가 최고나 최저이면 성적 평균에서 빼고 매긴다.
       System.out.println("배열길이 : "+scores.length);
 
-      
+
    }
 }
