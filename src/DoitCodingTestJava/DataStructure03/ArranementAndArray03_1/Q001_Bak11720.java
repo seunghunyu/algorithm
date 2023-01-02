@@ -1,8 +1,10 @@
-package DoitCodingTestJava;
+package DoitCodingTestJava.DataStructure03.ArranementAndArray03_1;
 
 import java.util.Scanner;
-
-public class Bak11720 {
+/*
+    문제001.숫자의 합 구하기
+ */
+public class Q001_Bak11720 {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
 
