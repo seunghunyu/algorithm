@@ -25,6 +25,7 @@ public class Q002_Bak1546 {
             }
            // System.out.println("Max = " + maxValue);
         }
+        long beforeTime = System.currentTimeMillis();
         int sum = 0;
         for(int i = 0 ; i < number ; i++){
 //             sum+=(scoreArr[i]/maxValue*100);
@@ -36,5 +37,8 @@ public class Q002_Bak1546 {
         }
         System.out.println("sum = " + sum);
         System.out.println("평균 값 = " + sum/number);
+        long afterTime = System.currentTimeMillis();
+        long secDiffTime = (afterTime - beforeTime)/1000; //두 시간에 차 계산
+        System.out.println("시간차이(m) : "+secDiffTime);
     }
 }
